@@ -1,16 +1,19 @@
 .sidebar{
     min-width: 300px;
     width: 30%;
+    border-left:1px solid rgba(255, 255, 255, 0.629);
     border-right: 1px solid lightgray;
     height:  100%;
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: #fafafa;
+    background-color: #fafafa; 
+    /* margin-top: 25px; */
+    /* #e7e7e7; */
 }
 .sidebar-header{
     height: 50px;
-    padding: 5px 0 5px 10px;
+    padding: 20px 0 5px 10px;
     background-color: #ededed;
     display: flex;
     align-items: center;
@@ -21,9 +24,10 @@
     width: 42px;
 }
 .sidebar-header-img > img{
-    width: 100px;
+    width: 140%;
     cursor: pointer;
     border-radius: 50%;
+    margin: 5px;
 }
 
 .sidebar-header-btn{
@@ -33,9 +37,9 @@
     width: 150px;
     color: #51585c;
 }
-.sidebar-header-btn > .MuuiSvgIcon-root{
+/* .sidebar-header-btn > .MuuiSvgIcon-root{
     font-size: 23px
-}
+} */
 
 .sidebar-search{
     height: 60px;
@@ -54,8 +58,10 @@
     background-color: #fff;
     border: 1px solid lightgray;
     border-radius: 10px;
+    /* margin: 5px;  */
+    
 }
-.sidebar-search-input > .MuuiSvgIcon-root{
+.sidebar-search-input > .MuiSvgIcon-root{
     font-size: 18px;
     color: #acacac;
     margin-left: 10px;
@@ -64,41 +70,19 @@
     background-color: transparent;
     border: none;
     outline: none;
-    margin-left: 6px;
+    /* margin-left: 6px;
     margin-bottom: 2px;
-    width: 80%;
+    width: 80%; */
     
 }
 .sidebar-chat-list{
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll !important;
+    overflow: scroll;
+    /* overflow-y: scroll !important;
     scrollbar-width: thin;
-    scrollbar-color: #f3f0dd #154734;
+    scrollbar-color: #f3f0dd #154734; */
 }
 
-/* div {
-    width: 30vw;
-    height: 49.75vw;
-    min-height: 1em;
-    overflow-y: visible;
-    overflow-x: hidden;
-    direction: ltr;
-    scrollbar-width: thin;
-    scrollbar-color: #f3f0dd #154734;
-} */
 
-/* div::-webkit-scrollbar {
-  width: 11px;
-}
-
-div::-webkit-scrollbar-track {
-  background: #154734;
-}
-
-div::-webkit-scrollbar-thumb {
-  background-color: #f3f0dd;
-  border-radius: 6px;
-  border: 3px solid #154734;
-} */
